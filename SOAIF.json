@@ -26,5 +26,12 @@
     "hwid": "",
     "expiry": "2025-09-28",
     "subscription": "Legend Panel"
+  },
+  {
+    "username": "1111",
+    "password": "111",
+    "hwid": "",
+    "expiry": "2025-09-28",
+    "subscription": "Bypass Panel"
   }
 ]
