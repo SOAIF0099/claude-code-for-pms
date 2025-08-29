@@ -1,4 +1,23 @@
 [
-  { "username": "1", "password": "1" },
-  { "username": "admin", "password": "admin123" }
+  {
+    "username": "1",
+    "password": "1",
+    "hwid": null,
+    "expiry": null,
+    "subscription": null
+  },
+  {
+    "username": "admin",
+    "password": "admin123",
+    "hwid": null,
+    "expiry": null,
+    "subscription": null
+  },
+  {
+    "username": "11",
+    "password": "1",
+    "hwid": "",
+    "expiry": "2125-08-29 14:32",
+    "subscription": "SOAIF PREMIUM"
+  }
 ]
