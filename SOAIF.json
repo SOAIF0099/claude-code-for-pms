@@ -13,4 +13,13 @@
     "expiry": "2125-08-29 12:06",
     "subscription": "SOAIF PREMIUM"
   }
+
 ]
+
+
+{
+  "users": [
+    { "username": "1", "password": "1" },
+    { "username": "demo", "password": "abcd" }
+  ]
+}
