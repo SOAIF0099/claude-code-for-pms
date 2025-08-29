@@ -1,16 +1,1 @@
-{
-  "admin": {
-    "username": "admin",
-    "password": "12345"
-  },
-  "config": {
-    "maintenance": { "enabled": false }
-  },
-  "users": {
-    "jisan": {
-      "Username": "jisan",
-      "Password": "abcd",
-      "Status": "Active"
-    }
-  }
-}
+
