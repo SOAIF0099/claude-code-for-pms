@@ -1,15 +1,4 @@
-{
-  "username": "admin",
-  "password": "1",
-  "users": [
-    {
-      "Username": "testuser",
-      "Password": "password123",
-      "Status": "active",
-      "Product": "Legend Panel",
-      "Expiry": "2025-12-31",
-      "HWID": "",
-      "UnlimitedLogin": false
-    }
-  ]
-}
+[
+  { "username": "1", "password": "1" },
+  { "username": "admin", "password": "admin123" }
+]
