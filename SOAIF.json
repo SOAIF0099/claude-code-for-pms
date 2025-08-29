@@ -4,5 +4,11 @@
     "password": "1",
     "expiry": "2027-10-01",
     "subscription": "NXR BYPASS "
+  },
+  {
+    "username": "1",
+    "password": "1",
+    "expiry": "2026-03-01",
+    "subscription": "NXR PREMIUM"
   }
 ]
