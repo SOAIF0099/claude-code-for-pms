@@ -1,24 +1,4 @@
-{
-  "admin": {
-    "username": "admin",
-    "password": "12345"
-  },
-  "config": {
-    "maintenance": { "enabled": false }
-  },
-  "users": {
-    "jisan": {
-      "Username": "jisan",
-      "Password": "abcd",
-      "Status": "Active",
-      "Product": "VIP",
-      "Expiry": "2025-12-31",
-      "UnlimitedLogin": false,
-      "BanReason": "",
-      "CreationDate": "2025-08-29",
-      "HWID": "",
-      "LastLoginDate": "",
-      "LastLoginIP": ""
-    }
-  }
+"admin": {
+  "username": "admin",
+  "password": "12345"
 }
