@@ -2,8 +2,13 @@
   {
     "username": "ovi",
     "password": "11",
-    "hwid": "",
     "expiry": "2026-08-29",
     "subscription": "AIMBOT AI V2"
+  },
+  {
+    "username": "SOAIF",
+    "password": "111",
+    "expiry": "2026-01-01",
+    "subscription": "NXR PREMIUM"
   }
 ]
