@@ -21,14 +21,21 @@
     "subscription": "NXR PREMIUM"
   },
   {
-    "username": "11111",
+    "username": "1111",
     "password": "1",
     "hwid": "",
     "expiry": "2125-08-29 07:54",
     "subscription": "NXR PREMIUM"
   },
   {
-    "username": "1111111",
+    "username": "111111",
+    "password": "1",
+    "hwid": "",
+    "expiry": "2125-08-29 07:54",
+    "subscription": "NXR PREMIUM"
+  },
+  {
+    "username": "11111111",
     "password": "1",
     "hwid": "",
     "expiry": "2125-08-29 07:54",
