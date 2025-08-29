@@ -1,13 +1,6 @@
 {
   "username": "admin",
   "password": "1",
-  "users": [
-    {
-      "Username": "1",
-      "Password": "1",
-      "Status": "active",
-      "Product": "Legend Panel",
-      "Expiry": "2025-12-31"
-    }
-  ]
+  "users": []
 }
+
