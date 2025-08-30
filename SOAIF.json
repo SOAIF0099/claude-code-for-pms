@@ -15,5 +15,18 @@
     "subscription": "SOAIF PREMIUM",
     "banned": false,
     "lastLogin": "2025-08-30T03:33:05.913Z"
+  },
+  {
+    "username": "2",
+    "password": "1",
+    "subscription": "NXR PREMIUM",
+    "expiry": "9999-09-09",
+    "hwid": "",
+    "ip": "N/A",
+    "createdAt": "2025-08-30T03:34:10.279Z",
+    "lastLogin": "",
+    "banned": false,
+    "paused": false,
+    "vars": {}
   }
 ]
