@@ -4,7 +4,8 @@
     "password": "1",
     "hwid": "",
     "expiry": "9999-10-25",
-    "subscription": "SOAIF PREMIUM"
+    "subscription": "SOAIF PREMIUM",
+    "banned": true
   },
   {
     "username": "1",
