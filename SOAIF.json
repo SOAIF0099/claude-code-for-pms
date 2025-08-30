@@ -1,10 +1,11 @@
 [
   {
-    "username": "SOAIFAUTH",
+    "username": "11",
     "password": "1",
     "hwid": "",
-    "expiry": "2125-08-29 20:56",
-    "subscription": "SOAIF PREMIUM"
+    "expiry": "9999-10-25",
+    "subscription": "SOAIF PREMIUM",
+    "banned": false
   },
   {
     "username": "1",
