@@ -68,5 +68,12 @@
     "hwid": "",
     "expiry": "2025-09-02",
     "subscription": "NXR PREMIUM"
+  },
+  {
+    "username": "2",
+    "password": "2",
+    "hwid": "",
+    "expiry": "9999-09-02",
+    "subscription": "SOAIF PREMIUM"
   }
 ]
