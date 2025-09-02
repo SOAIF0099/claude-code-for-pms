@@ -2,7 +2,7 @@
   {
     "username": "1",
     "password": "1",
-    "hwid": "76A575646BAAE62FFFF81178CA01E39C",
+    "hwid": "",
     "expiry": "2125-08-30 08:10",
     "subscription": "SOAIF PREMIUM"
   },
@@ -34,5 +34,4 @@
     "expiry": "2125-08-30 11:24",
     "subscription": "SOAIF PREMIUM"
   }
-
 ]
