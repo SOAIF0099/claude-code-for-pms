@@ -4,76 +4,87 @@
     "password": "1",
     "hwid": "76A575646BAAE62FFFF81178CA01E39C",
     "expiry": "2125-08-30 08:10",
-    "subscription": "SOAIF PREMIUM"
+    "subscription": "SOAIF PREMIUM",
+    "banned": ""
   },
   {
     "username": "s",
     "password": "1",
     "hwid": "D26B842A525A396FEEF279BD31B378C0",
     "expiry": "2125-08-30 08:40",
-    "subscription": "SOAIF PREMIUM"
+    "subscription": "SOAIF PREMIUM",
+    "banned": ""
   },
   {
     "username": "sagor",
     "password": "1",
     "hwid": "A68F1C52B55BAFBC34539083E5DD4B57",
     "expiry": "2125-08-30 09:30",
-    "subscription": "SOAIF PREMIUM"
+    "subscription": "SOAIF PREMIUM",
+    "banned": ""
   },
   {
     "username": "asad",
     "password": "1",
     "hwid": "B91113F0FB4F5925DF0596623D6A3322",
     "expiry": "2125-08-30 09:31",
-    "subscription": "SOAIF PREMIUM"
+    "subscription": "SOAIF PREMIUM",
+    "banned": ""
   },
   {
     "username": "uc",
     "password": "1",
     "hwid": "F1C82BDF077BBFA9398FC9E4C80D6B65",
     "expiry": "2125-08-30 11:24",
-    "subscription": "SOAIF PREMIUM"
+    "subscription": "SOAIF PREMIUM",
+    "banned": ""
   },
   {
     "username": "admin",
     "password": "1234",
     "hwid": "",
     "expiry": "2125-12-31 23:59",
-    "subscription": "SOAIF PREMIUM"
+    "subscription": "SOAIF PREMIUM",
+    "banned": ""
   },
   {
     "username": "4",
     "password": "1",
     "hwid": "",
     "expiry": "2025-09-02",
-    "subscription": "AIMBOT AI V2"
+    "subscription": "AIMBOT AI V2",
+    "banned": ""
   },
   {
     "username": "5",
     "password": "1",
     "hwid": "",
     "expiry": "2025-09-02",
-    "subscription": "NXR BYPASS"
+    "subscription": "NXR BYPASS",
+    "banned": ""
   },
   {
     "username": "6",
     "password": "1",
     "hwid": "",
     "expiry": "2025-09-02",
-    "subscription": "NXR PREMIUM"
+    "subscription": "NXR PREMIUM",
+    "banned": ""
   },
   {
     "username": "11",
     "password": "1",
     "hwid": "",
     "expiry": "2025-09-02",
-    "subscription": "NXR PREMIUM"
+    "subscription": "NXR PREMIUM",
+    "banned": ""
   },
   {
     "username": "2",
     "password": "2",
     "hwid": "76A575646BAAE62FFFF81178CA01E39C",
     "expiry": "9999-09-02",
-    "subscription": "SOAIF PREMIUM"
+    "subscription": "SOAIF PREMIUM",
+    "banned": ""
   }
 ]
