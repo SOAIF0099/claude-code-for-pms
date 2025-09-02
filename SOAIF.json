@@ -33,5 +33,12 @@
     "hwid": "F1C82BDF077BBFA9398FC9E4C80D6B65",
     "expiry": "2125-08-30 11:24",
     "subscription": "SOAIF PREMIUM"
+  },
+  {
+    "username": "admin",
+    "password": "1234",
+    "hwid": "",
+    "expiry": "2125-12-31 23:59",
+    "subscription": "SOAIF PREMIUM"
   }
 ]
