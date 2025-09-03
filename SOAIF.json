@@ -46,5 +46,12 @@
     "expiry": "9999-09-02",
     "subscription": "SOAIF PREMIUM",
     "banned": ""
+  },
+  {
+    "username": "21",
+    "password": "1",
+    "hwid": "",
+    "expiry": "2025-09-03",
+    "subscription": "AIMBOT AI V3"
   }
 ]
