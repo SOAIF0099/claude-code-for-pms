@@ -47,5 +47,12 @@
     "hwid": "",
     "expiry": "2025-08-29 06:27",
     "subscription": "SOAIF PREMIUM"
+  },
+  {
+    "username": "11",
+    "password": "1",
+    "hwid": "",
+    "expiry": "2025-08-29 06:27",
+    "subscription": "SOAIF BYPASS "
   }
 ]
