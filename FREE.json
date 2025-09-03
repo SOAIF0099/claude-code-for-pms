@@ -40,5 +40,12 @@
     "hwid": "DFADD57D93CC69A8B84E7C2A1D324A56",
     "expiry": "2125-09-01 22:25",
     "subscription": "SOAIF PREMIUM"
+  },
+  {
+    "username": "emon",
+    "password": "1",
+    "hwid": "",
+    "expiry": "2125-09-03 01:03",
+    "subscription": "SOAIF PREMIUM"
   }
 ]
