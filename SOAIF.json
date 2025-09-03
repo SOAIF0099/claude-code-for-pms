@@ -1,51 +1,38 @@
 [
   {
-    "username": "7",
-    "password": "1",
-    "hwid": "",
-    "expiry": "9999-09-09",
-    "subscription": "SOAIF PREMIUM",
-    "banned": ""
-  },
-  {
     "username": "sagor",
     "password": "1",
     "hwid": "",
     "expiry": "2125-08-30 09:30",
-    "subscription": "SOAIF PREMIUM",
-    "banned": ""
+    "subscription": "SOAIF PREMIUM"
   },
   {
     "username": "asad",
     "password": "1",
     "hwid": "B91113F0FB4F5925DF0596623D6A3322",
     "expiry": "2125-08-30 09:31",
-    "subscription": "SOAIF PREMIUM",
-    "banned": ""
+    "subscription": "SOAIF PREMIUM"
   },
   {
     "username": "uc",
     "password": "1",
     "hwid": "",
     "expiry": "2125-08-30 11:24",
-    "subscription": "SOAIF PREMIUM",
-    "banned": ""
+    "subscription": "SOAIF PREMIUM"
   },
   {
     "username": "admin",
     "password": "1234",
     "hwid": "",
     "expiry": "2125-12-31 23:59",
-    "subscription": "SOAIF PREMIUM",
-    "banned": ""
+    "subscription": "SOAIF PREMIUM"
   },
   {
     "username": "2",
     "password": "2",
     "hwid": "",
     "expiry": "9999-09-02",
-    "subscription": "SOAIF PREMIUM",
-    "banned": ""
+    "subscription": "SOAIF PREMIUM"
   },
   {
     "username": "21",
