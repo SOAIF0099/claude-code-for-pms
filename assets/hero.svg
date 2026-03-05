@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="warm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e05545"/>
+      <stop offset="50%" style="stop-color:#e8854a"/>
+      <stop offset="100%" style="stop-color:#f0b24a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark background -->
+  <rect width="1200" height="630" fill="#1e1e1e"/>
+
+  <!-- Subtle noise texture via tiny dots -->
+  <filter id="noise">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer>
+      <feFuncA type="linear" slope="0.03"/>
+    </feComponentTransfer>
+    <feBlend in="SourceGraphic" mode="multiply"/>
+  </filter>
+  <rect width="1200" height="630" filter="url(#noise)" opacity="0.5"/>
+
+  <!-- CLAUDE — warm gradient, massive blocky type -->
+  <text x="80" y="175" font-family="'Impact', 'Arial Black', 'Helvetica Neue', sans-serif" font-size="148" font-weight="900" fill="url(#warm)" letter-spacing="12">CLAUDE</text>
+
+  <!-- CODE — warm gradient, massive blocky type -->
+  <text x="80" y="310" font-family="'Impact', 'Arial Black', 'Helvetica Neue', sans-serif" font-size="148" font-weight="900" fill="url(#warm)" letter-spacing="12">CODE</text>
+
+  <!-- FOR — white, lighter weight -->
+  <text x="80" y="400" font-family="'Impact', 'Arial Black', 'Helvetica Neue', sans-serif" font-size="88" font-weight="900" fill="#e8e8e8" letter-spacing="8">FOR</text>
+
+  <!-- PRODUCT — white -->
+  <text x="80" y="480" font-family="'Impact', 'Arial Black', 'Helvetica Neue', sans-serif" font-size="88" font-weight="900" fill="#e8e8e8" letter-spacing="8">PRODUCT</text>
+
+  <!-- MANAGERS — white -->
+  <text x="80" y="560" font-family="'Impact', 'Arial Black', 'Helvetica Neue', sans-serif" font-size="88" font-weight="900" fill="#e8e8e8" letter-spacing="8">MANAGERS</text>
+
+  <!-- Attribution bar -->
+  <line x1="80" y1="590" x2="1120" y2="590" stroke="#444" stroke-width="1"/>
+  <text x="80" y="615" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="14" fill="#888">Curated by Lautaro Giambroni</text>
+  <text x="1120" y="615" font-family="'SF Mono', 'Fira Code', 'Cascadia Code', monospace" font-size="14" fill="#888" text-anchor="end">10 skills for your terminal</text>
+</svg>
